@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A1E157B1BEFDF8200EE0E38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1E157A1BEFDF8200EE0E38 /* AppDelegate.swift */; };
+		7A1E157D1BEFDF8200EE0E38 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1E157C1BEFDF8200EE0E38 /* MasterViewController.swift */; };
+		7A1E157F1BEFDF8200EE0E38 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1E157E1BEFDF8200EE0E38 /* DetailViewController.swift */; };
+		7A1E15821BEFDF8200EE0E38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1E15801BEFDF8200EE0E38 /* Main.storyboard */; };
+		7A1E15841BEFDF8200EE0E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A1E15831BEFDF8200EE0E38 /* Assets.xcassets */; };
+		7A1E15871BEFDF8200EE0E38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1E15851BEFDF8200EE0E38 /* LaunchScreen.storyboard */; };
+		7A1E15921BEFDF8200EE0E38 /* BusbudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1E15911BEFDF8200EE0E38 /* BusbudTests.swift */; };
+		7A1E159D1BEFDF8200EE0E38 /* BusbudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1E159C1BEFDF8200EE0E38 /* BusbudUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A1E158E1BEFDF8200EE0E38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A1E156F1BEFDF8200EE0E38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A1E15761BEFDF8200EE0E38;
+			remoteInfo = Busbud;
+		};
+		7A1E15991BEFDF8200EE0E38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A1E156F1BEFDF8200EE0E38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A1E15761BEFDF8200EE0E38;
+			remoteInfo = Busbud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A1E15771BEFDF8200EE0E38 /* Busbud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Busbud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1E157A1BEFDF8200EE0E38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A1E157C1BEFDF8200EE0E38 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		7A1E157E1BEFDF8200EE0E38 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7A1E15811BEFDF8200EE0E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A1E15831BEFDF8200EE0E38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A1E15861BEFDF8200EE0E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A1E15881BEFDF8200EE0E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A1E158D1BEFDF8200EE0E38 /* BusbudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusbudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1E15911BEFDF8200EE0E38 /* BusbudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusbudTests.swift; sourceTree = "<group>"; };
+		7A1E15931BEFDF8200EE0E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A1E15981BEFDF8200EE0E38 /* BusbudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusbudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1E159C1BEFDF8200EE0E38 /* BusbudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusbudUITests.swift; sourceTree = "<group>"; };
+		7A1E159E1BEFDF8200EE0E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A1E15741BEFDF8200EE0E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1E158A1BEFDF8200EE0E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1E15951BEFDF8200EE0E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A1E156E1BEFDF8200EE0E38 = {
+			isa = PBXGroup;
+			children = (
+				7A1E15791BEFDF8200EE0E38 /* Busbud */,
+				7A1E15901BEFDF8200EE0E38 /* BusbudTests */,
+				7A1E159B1BEFDF8200EE0E38 /* BusbudUITests */,
+				7A1E15781BEFDF8200EE0E38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A1E15781BEFDF8200EE0E38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A1E15771BEFDF8200EE0E38 /* Busbud.app */,
+				7A1E158D1BEFDF8200EE0E38 /* BusbudTests.xctest */,
+				7A1E15981BEFDF8200EE0E38 /* BusbudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A1E15791BEFDF8200EE0E38 /* Busbud */ = {
+			isa = PBXGroup;
+			children = (
+				7A1E157A1BEFDF8200EE0E38 /* AppDelegate.swift */,
+				7A1E157C1BEFDF8200EE0E38 /* MasterViewController.swift */,
+				7A1E157E1BEFDF8200EE0E38 /* DetailViewController.swift */,
+				7A1E15801BEFDF8200EE0E38 /* Main.storyboard */,
+				7A1E15831BEFDF8200EE0E38 /* Assets.xcassets */,
+				7A1E15851BEFDF8200EE0E38 /* LaunchScreen.storyboard */,
+				7A1E15881BEFDF8200EE0E38 /* Info.plist */,
+			);
+			path = Busbud;
+			sourceTree = "<group>";
+		};
+		7A1E15901BEFDF8200EE0E38 /* BusbudTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A1E15911BEFDF8200EE0E38 /* BusbudTests.swift */,
+				7A1E15931BEFDF8200EE0E38 /* Info.plist */,
+			);
+			path = BusbudTests;
+			sourceTree = "<group>";
+		};
+		7A1E159B1BEFDF8200EE0E38 /* BusbudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A1E159C1BEFDF8200EE0E38 /* BusbudUITests.swift */,
+				7A1E159E1BEFDF8200EE0E38 /* Info.plist */,
+			);
+			path = BusbudUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A1E15761BEFDF8200EE0E38 /* Busbud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A1E15A11BEFDF8200EE0E38 /* Build configuration list for PBXNativeTarget "Busbud" */;
+			buildPhases = (
+				7A1E15731BEFDF8200EE0E38 /* Sources */,
+				7A1E15741BEFDF8200EE0E38 /* Frameworks */,
+				7A1E15751BEFDF8200EE0E38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Busbud;
+			productName = Busbud;
+			productReference = 7A1E15771BEFDF8200EE0E38 /* Busbud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A1E158C1BEFDF8200EE0E38 /* BusbudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A1E15A41BEFDF8200EE0E38 /* Build configuration list for PBXNativeTarget "BusbudTests" */;
+			buildPhases = (
+				7A1E15891BEFDF8200EE0E38 /* Sources */,
+				7A1E158A1BEFDF8200EE0E38 /* Frameworks */,
+				7A1E158B1BEFDF8200EE0E38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A1E158F1BEFDF8200EE0E38 /* PBXTargetDependency */,
+			);
+			name = BusbudTests;
+			productName = BusbudTests;
+			productReference = 7A1E158D1BEFDF8200EE0E38 /* BusbudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A1E15971BEFDF8200EE0E38 /* BusbudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A1E15A71BEFDF8200EE0E38 /* Build configuration list for PBXNativeTarget "BusbudUITests" */;
+			buildPhases = (
+				7A1E15941BEFDF8200EE0E38 /* Sources */,
+				7A1E15951BEFDF8200EE0E38 /* Frameworks */,
+				7A1E15961BEFDF8200EE0E38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A1E159A1BEFDF8200EE0E38 /* PBXTargetDependency */,
+			);
+			name = BusbudUITests;
+			productName = BusbudUITests;
+			productReference = 7A1E15981BEFDF8200EE0E38 /* BusbudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A1E156F1BEFDF8200EE0E38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Busbud;
+				TargetAttributes = {
+					7A1E15761BEFDF8200EE0E38 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					7A1E158C1BEFDF8200EE0E38 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 7A1E15761BEFDF8200EE0E38;
+					};
+					7A1E15971BEFDF8200EE0E38 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 7A1E15761BEFDF8200EE0E38;
+					};
+				};
+			};
+			buildConfigurationList = 7A1E15721BEFDF8200EE0E38 /* Build configuration list for PBXProject "Busbud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A1E156E1BEFDF8200EE0E38;
+			productRefGroup = 7A1E15781BEFDF8200EE0E38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A1E15761BEFDF8200EE0E38 /* Busbud */,
+				7A1E158C1BEFDF8200EE0E38 /* BusbudTests */,
+				7A1E15971BEFDF8200EE0E38 /* BusbudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A1E15751BEFDF8200EE0E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1E15871BEFDF8200EE0E38 /* LaunchScreen.storyboard in Resources */,
+				7A1E15841BEFDF8200EE0E38 /* Assets.xcassets in Resources */,
+				7A1E15821BEFDF8200EE0E38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1E158B1BEFDF8200EE0E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1E15961BEFDF8200EE0E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A1E15731BEFDF8200EE0E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1E157F1BEFDF8200EE0E38 /* DetailViewController.swift in Sources */,
+				7A1E157D1BEFDF8200EE0E38 /* MasterViewController.swift in Sources */,
+				7A1E157B1BEFDF8200EE0E38 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1E15891BEFDF8200EE0E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1E15921BEFDF8200EE0E38 /* BusbudTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1E15941BEFDF8200EE0E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1E159D1BEFDF8200EE0E38 /* BusbudUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A1E158F1BEFDF8200EE0E38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A1E15761BEFDF8200EE0E38 /* Busbud */;
+			targetProxy = 7A1E158E1BEFDF8200EE0E38 /* PBXContainerItemProxy */;
+		};
+		7A1E159A1BEFDF8200EE0E38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A1E15761BEFDF8200EE0E38 /* Busbud */;
+			targetProxy = 7A1E15991BEFDF8200EE0E38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A1E15801BEFDF8200EE0E38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A1E15811BEFDF8200EE0E38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A1E15851BEFDF8200EE0E38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A1E15861BEFDF8200EE0E38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A1E159F1BEFDF8200EE0E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A1E15A01BEFDF8200EE0E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A1E15A21BEFDF8200EE0E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Busbud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.busbud.Busbud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7A1E15A31BEFDF8200EE0E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Busbud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.busbud.Busbud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7A1E15A51BEFDF8200EE0E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BusbudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.busbud.BusbudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Busbud.app/Busbud";
+			};
+			name = Debug;
+		};
+		7A1E15A61BEFDF8200EE0E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BusbudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.busbud.BusbudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Busbud.app/Busbud";
+			};
+			name = Release;
+		};
+		7A1E15A81BEFDF8200EE0E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BusbudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.busbud.BusbudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Busbud;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7A1E15A91BEFDF8200EE0E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BusbudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.busbud.BusbudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Busbud;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A1E15721BEFDF8200EE0E38 /* Build configuration list for PBXProject "Busbud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1E159F1BEFDF8200EE0E38 /* Debug */,
+				7A1E15A01BEFDF8200EE0E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A1E15A11BEFDF8200EE0E38 /* Build configuration list for PBXNativeTarget "Busbud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1E15A21BEFDF8200EE0E38 /* Debug */,
+				7A1E15A31BEFDF8200EE0E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A1E15A41BEFDF8200EE0E38 /* Build configuration list for PBXNativeTarget "BusbudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1E15A51BEFDF8200EE0E38 /* Debug */,
+				7A1E15A61BEFDF8200EE0E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A1E15A71BEFDF8200EE0E38 /* Build configuration list for PBXNativeTarget "BusbudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1E15A81BEFDF8200EE0E38 /* Debug */,
+				7A1E15A91BEFDF8200EE0E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A1E156F1BEFDF8200EE0E38 /* Project object */;
+}
